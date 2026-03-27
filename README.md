@@ -1,3 +1,5 @@
+> **📅 Project Period:** Jan 2024 – Apr 2024 &nbsp;|&nbsp; **Status:** Completed &nbsp;|&nbsp; **Author:** [Bharghava Ram Vemuri](https://github.com/bharghavaram)
+
 # 🌿 Green Alpha – ESG & Sustainability Intelligence Platform
 
 > **RAG-powered ESG analysis platform with FAISS semantic search, chain-of-thought reasoning, and dual LLM support (GPT-4 + Claude).**
