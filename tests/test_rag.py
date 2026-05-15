@@ -30,8 +30,10 @@ def test_query_no_documents():
         assert result["sources"] == []
 
 
-@pytest.mark.asyncio
-async def test_api_health(async_client):
-    response = await async_client.get("/api/v1/esg/health")
+def test_api_health():
+    from fastapi.testclient import TestClient
+    from main import app
+    client = TestClient(app)
+    response = client.get("/api/v1/esg/health")
     assert response.status_code == 200
     assert response.json()["status"] == "ok"
