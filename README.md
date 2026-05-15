@@ -16,7 +16,11 @@
 
 ---
 
-## 🎯 Problem Statement
+<div align="center">
+  <img src="https://raw.githubusercontent.com/bharghavaram/green-alpha/main/docs/images/demo.svg" alt="green-alpha demo" width="820"/>
+</div>
+
+--- 🎯 Problem Statement
 
 ESG (Environmental, Social, Governance) analysis requires reading hundreds of annual reports, sustainability filings, and news articles to assess corporate sustainability. Asset managers spend weeks per company doing this manually. Greenwashing is rampant — companies make vague sustainability claims that are difficult to verify. This platform ingests 100+ ESG documents, builds a FAISS semantic index, and uses GPT-4 + Claude with LangChain to answer complex ESG queries, score companies, detect greenwashing, and generate portfolio-level sustainability reports.
 
